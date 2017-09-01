@@ -1,0 +1,42 @@
+#testimonial {
+  //background-color: #35a8ad;
+  background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  30%, rgba(237, 237, 138, 0.7) );
+  padding: 3em 0 3em 0;
+
+  h2 {
+    padding-top: 1em;
+  }
+
+  blockquote.style {
+    font: 18px/30px;
+    padding: 22px 10px 0 10px;
+    margin-bottom: 4em;
+    background-image: url("/img/openquote.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-indent: 65px;
+    p {
+      text-align: center;
+    }
+    span {
+      display: block;
+      background-image: url("/img/closequote.png");
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: 50px;
+      text-align: left;
+      padding: 1.5em;
+      font-weight: 300;
+    }
+  }
+  a {
+    color: #414042;
+    font-weight: 300;
+    text-decoration: none;
+    &:hover {
+      color: rgba(237, 237, 138, 1);
+    }
+  }
+}
+
